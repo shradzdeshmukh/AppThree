@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#222222</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#666666</color>
+    <color name="very_dark_gray">#444444</color>
+
+
+   <!-- <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/grey</color>
+    <color name="colorAccent">@color/white</color>-->
+
+        <color name="colorPrimary">#9E9E9E</color>
+        <color name="colorPrimaryDark">#616161</color>
+        <color name="primary_light">#F5F5F5</color>
+        <color name="colorAccent">#7C4DFF</color>
+        <color name="primary_text">#000000</color>
+        <color name="secondary_text">#727272</color>
+        <color name="icons">#212121</color>
+        <color name="divider">#B6B6B6</color>
+    <color name="clock_color">#0000FF</color>
+    <color name="greenish_grey">#4a585e</color>
+
+
+</resources>

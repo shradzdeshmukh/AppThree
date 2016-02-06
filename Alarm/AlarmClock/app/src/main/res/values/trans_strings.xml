@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="repeat">Repeat</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="label">Label</string>
+    <string name="alarm_title">Alarms</string>
+    <string name="everyday">everyday</string>
+    <string name="no_read_permission">No Media Read Permission</string>
+    <string name="delete">Delete</string>
+    <string name="theme">Clock Theme</string>
+    <string name="screen_lock">Prevent screen from locking</string>
+    <string name="choose_color">Choose color</string>
+    <string name="theme_digits">Digits theme</string>
+    <string name="snooze_title">Select snooze interval</string>
+    <string name="no_alarms">No alarms</string>
+    <string name="am_pm">Is 24-Hour format?</string>
+    <string name="settings">Settings</string>
+    <string name="minutes">Minutes</string>
+    <string name="noflash">Your device doesnot support flash</string>
+    <string name="feedback">Feedback</string>
+    <string name="no_email_client">No email client on your device</string>
+
+</resources>

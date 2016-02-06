@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="repeat">繰り返す</string>
+    <string name="vibrate">振動します</string>
+    <string name="label">ラベル</string>
+    <string name="alarm_title">警報器</string>
+    <string name="everyday">毎日</string>
+    <string name="no_read_permission">いいえメディアの読み取り権限がありません</string>
+    <string name="delete">削除</string>
+    <string name="theme">クロックのテーマ</string>
+    <string name="screen_lock">ロックから画面を防ぎます</string>
+    <string name="choose_color">色を選択</string>
+    <string name="theme_digits">数字テーマ</string>
+    <string name="snooze_title">選択スヌーズ間隔</string>
+    <string name="no_alarms">いいえアラームはありません</string>
+    <string name="am_pm">24時間対応フォーマットはありますか？</string>
+    <string name="settings">[設定]</string>
+    <string name="minutes">ミニッツ</string>
+    <string name="noflash">フラッシュをサポートしていませんお使いのデバイス</string>
+    <string name="feedback">フィードバック</string>
+    <string name="no_email_client">お使いのデバイスには電子メールクライアントはありません</string>
+
+</resources>

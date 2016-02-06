@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AlarmClock</string>
+    <string name="authority">com.cyno.alarm</string>
+    <string name="up">up</string>
+    <string name="down">down</string>
+    <string name="day_layout">day_layout</string>
+    <string name="bottom_visible">bottom_visible</string>
+    <string name="view_id">view_id</string>
+    <string name="tag_alarm">alarm</string>
+    <string name="snooze_time">Snooze time</string>
+</resources>

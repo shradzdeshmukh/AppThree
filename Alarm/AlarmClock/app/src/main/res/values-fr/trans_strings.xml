@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="repeat">Répéter</string>
+    <string name="vibrate">Vibrer</string>
+    <string name="label">Étiquette</string>
+    <string name="alarm_title">alarmes</string>
+    <string name="everyday">tous les jours</string>
+    <string name="no_read_permission">Aucun média autorisation de lecture</string>
+    <string name="delete">Effacer</string>
+    <string name="theme">Horloge Thème</string>
+    <string name="screen_lock">Empêcher l\'écran de verrouillage</string>
+    <string name="choose_color">Choisir la couleur</string>
+    <string name="theme_digits">thème chiffres</string>
+    <string name="snooze_title">Sélectionnez intervalle de rappel</string>
+    <string name="no_alarms">Aucune alarme</string>
+    <string name="am_pm">Est un format de 24 heures?</string>
+    <string name="settings">Paramètres</string>
+    <string name="minutes">Minutes</string>
+    <string name="noflash">Votre appareil ne supporte pas Flash</string>
+    <string name="feedback">réaction</string>
+    <string name="no_email_client">Aucun client de messagerie sur votre terminal</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="repeat">Repetir</string>
+    <string name="vibrate">Vibrar</string>
+    <string name="label">Etiqueta</string>
+    <string name="alarm_title">alarmas</string>
+    <string name="everyday">todos los días</string>
+    <string name="no_read_permission">No Media permiso de lectura</string>
+    <string name="delete">Borrar</string>
+    <string name="theme">reloj temático</string>
+    <string name="screen_lock">Evitar que la pantalla se bloquee</string>
+    <string name="choose_color">Elige el color</string>
+    <string name="theme_digits">tema dígitos</string>
+    <string name="snooze_title">Elija un intervalo de repetición</string>
+    <string name="no_alarms">No hay alarmas</string>
+    <string name="am_pm">Es el formato de 24 horas?</string>
+    <string name="settings">Ajustes</string>
+    <string name="minutes">Minutos</string>
+    <string name="noflash">El dispositivo no soporta Flash</string>
+    <string name="feedback">Retroalimentación</string>
+    <string name="no_email_client">Ningún cliente de correo electrónico en su dispositivo</string>
+
+</resources>

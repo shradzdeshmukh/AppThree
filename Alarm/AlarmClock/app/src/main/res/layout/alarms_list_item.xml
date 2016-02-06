@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/grey"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginBottom="2dp"
+        android:background="@color/black"
+        android:id="@+id/alarms_list_item_time_root"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:padding="@dimen/normal_padding"
+                android:text="23:17"
+                android:textSize="@dimen/font_size_time"
+                android:id="@+id/tv_alarms_list_item_time"
+                android:layout_width="0dp"
+                android:textColor="@color/white"
+                android:layout_weight="0.7"
+                android:layout_height="match_parent" />
+            <android.support.v7.widget.SwitchCompat
+                android:layout_gravity="right|center_vertical"
+                android:gravity="right|center_vertical"
+                android:padding="@dimen/normal_padding"
+                android:id="@+id/sw_alarms_list_item_on_off"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_alarms_list_item_days_layout"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="@dimen/normal_padding"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:text="Mon,Tue,Thu,Sat"
+                android:textSize="@dimen/font_size_repeat_days"
+                android:id="@+id/tv_alarms_list_item_repeat_days"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_marginRight="@dimen/normal_padding_2x"
+                android:src="@drawable/ic_down_arrow"
+                android:layout_gravity="right"
+                android:id="@+id/iv_alarms_list_item_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_alarms_list_item_bottom"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:background="@color/very_dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:padding="@dimen/normal_padding"
+                android:id="@+id/cb_alarms_list_item_repeat"
+                android:text="@string/repeat"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_size_cb_repeat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/alarms_list_item_time_repeat_layout"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:tag="1"
+                        android:padding="@dimen/normal_padding"
+                        android:background="@drawable/letter_background_selector"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/normal_padding"
+                        android:textColor="@drawable/letter_text_color_selector"
+                        android:id="@+id/tv_alarms_list_item_sunday"
+                        android:layout_width="@dimen/letter_size"
+                        android:layout_height="@dimen/letter_size" />
+
+                    <TextView
+                        android:tag="2"
+                        android:padding="@dimen/normal_padding"
+                        android:background="@drawable/letter_background_selector"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/normal_padding"
+                        android:textColor="@drawable/letter_text_color_selector"
+                        android:id="@+id/tv_alarms_list_item_monday"
+                        android:layout_width="@dimen/letter_size"
+                        android:layout_height="@dimen/letter_size" />
+
+                    <TextView
+                        android:tag="3"
+                        android:padding="@dimen/normal_padding"
+                        android:background="@drawable/letter_background_selector"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/normal_padding"
+                        android:textColor="@drawable/letter_text_color_selector"
+                        android:id="@+id/tv_alarms_list_item_tuesday"
+                        android:layout_width="@dimen/letter_size"
+                        android:layout_height="@dimen/letter_size" />
+
+                    <TextView
+                        android:tag="4"
+                        android:padding="@dimen/normal_padding"
+                        android:background="@drawable/letter_background_selector"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/normal_padding"
+                        android:textColor="@drawable/letter_text_color_selector"
+                        android:id="@+id/tv_alarms_list_item_wednesday"
+                        android:layout_width="@dimen/letter_size"
+                        android:layout_height="@dimen/letter_size" />
+
+                    <TextView
+                        android:tag="5"
+                        android:padding="@dimen/normal_padding"
+                        android:background="@drawable/letter_background_selector"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/normal_padding"
+                        android:textColor="@drawable/letter_text_color_selector"
+                        android:id="@+id/tv_alarms_list_item_thursday"
+                        android:layout_width="@dimen/letter_size"
+                        android:layout_height="@dimen/letter_size" />
+
+                    <TextView
+                        android:tag="6"
+                        android:padding="@dimen/normal_padding"
+                        android:background="@drawable/letter_background_selector"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/normal_padding"
+                        android:textColor="@drawable/letter_text_color_selector"
+                        android:id="@+id/tv_alarms_list_item_friday"
+                        android:layout_width="@dimen/letter_size"
+                        android:layout_height="@dimen/letter_size" />
+
+                    <TextView
+                        android:tag="7"
+                        android:padding="@dimen/normal_padding"
+                        android:background="@drawable/letter_background_selector"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/normal_padding"
+                        android:textColor="@drawable/letter_text_color_selector"
+                        android:id="@+id/tv_alarms_list_item_saturday"
+                        android:layout_width="@dimen/letter_size"
+                        android:layout_height="@dimen/letter_size" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:padding="@dimen/normal_padding"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Helium vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
+                    android:id="@+id/tv_alarms_list_item_ringtone"
+                    android:layout_width="0dp"
+                    android:gravity="center_vertical"
+                    android:singleLine="false"
+                    android:textSize="@dimen/font_size_ringtone"
+                    android:drawableLeft="@drawable/ic_ringtone"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content" />
+
+                <CheckBox
+                    android:text="@string/vibrate"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_size_vibrate"
+                    android:id="@+id/cb_alarms_list_item_vibrate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <EditText
+                android:visibility="gone"
+                android:padding="@dimen/normal_padding"
+                android:hint="@string/label"
+                android:id="@+id/et_alarms_list_item_label"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_action_alarm_add"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/font_size_ringtone"
+                    android:textColor="@color/white"
+                    android:text="@string/delete"
+                    android:drawableLeft="@drawable/ic_action_delete"
+                    android:id="@+id/tv_alarms_list_item_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="left"
+                    android:padding="@dimen/normal_padding"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:paddingRight="@dimen/normal_padding"
+                    android:paddingBottom="@dimen/normal_padding"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_up_arow"
+                    android:id="@+id/iv_alarms_list_item_up"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

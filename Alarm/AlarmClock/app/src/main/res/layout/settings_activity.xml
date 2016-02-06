@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:padding="@dimen/normal_padding_2x"
+            android:textColor="@color/white"
+            android:text="@string/settings"
+            android:textSize="@dimen/settings_keys"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="@color/very_dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/settings_theme_background"
+            android:layout_marginRight="@dimen/normal_padding_2x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="@dimen/normal_padding_2x"
+                android:textColor="@color/white"
+                android:text="@string/theme"
+                android:textSize="@dimen/settings_keys"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:id="@+id/settings_background_color"
+                android:layout_margin="@dimen/normal_padding_2x"
+                android:layout_width="@dimen/theme_view_side"
+                android:layout_height="@dimen/theme_view_side"
+                android:background="@color/clock_color"
+                />
+
+        </LinearLayout>
+        <View
+            android:background="@color/very_dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:id="@+id/settings_theme_digits"
+            android:layout_marginRight="@dimen/normal_padding_2x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="@dimen/normal_padding_2x"
+                android:textColor="@color/white"
+                android:text="@string/theme_digits"
+                android:textSize="@dimen/settings_keys"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:id="@+id/settings_digit_color"
+                android:layout_margin="@dimen/normal_padding_2x"
+                android:layout_width="@dimen/theme_view_side"
+                android:layout_height="@dimen/theme_view_side"
+                android:background="@color/clock_color"
+                />
+
+        </LinearLayout>
+        <View
+            android:background="@color/very_dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:id="@+id/settings_snooze_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="@dimen/normal_padding_2x"
+                android:textColor="@color/white"
+                android:text="@string/snooze_time"
+                android:textSize="@dimen/settings_keys"
+                android:layout_width="0dp"
+                android:layout_weight="0.6"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/settings_tv_snooze_interval"
+                android:padding="@dimen/normal_padding_2x"
+                android:textColor="@color/white"
+                android:textSize="@dimen/settings_keys"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/very_dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="@dimen/normal_padding_2x"
+                android:textColor="@color/white"
+                android:text="@string/am_pm"
+                android:textSize="@dimen/settings_keys"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/settings_am_pm"
+                android:padding="@dimen/normal_padding_2x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/very_dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="@dimen/normal_padding_2x"
+                android:textColor="@color/white"
+                android:text="@string/screen_lock"
+                android:textSize="@dimen/settings_keys"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/settings_screen_on"
+                android:padding="@dimen/normal_padding_2x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View
+            android:background="@color/very_dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+            android:id="@+id/settings_tv_feedback"
+            android:padding="@dimen/normal_padding_2x"
+            android:textColor="@color/white"
+            android:text="@string/feedback"
+            android:textSize="@dimen/settings_keys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:background="@color/very_dark_gray"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#000000"
+    android:id="@+id/main_layout"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:layout_gravity="center"
+        tools:showIn="@layout/activity_main"
+        tools:context="com.cyno.alarm.ui.MainActivity">
+
+        <TextView
+            android:id="@+id/tv_am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PM"
+            android:layout_alignRight="@+id/text1"
+            android:layout_gravity="top"
+            android:textSize="@dimen/font_size_am_pm"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_below="@+id/tv_am_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:37"
+            android:textSize="@dimen/font_size_hr_min"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MONDAY"
+            android:textSize="@dimen/font_size_day"
+            android:layout_alignTop="@+id/tv_date"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:padding="@dimen/normal_padding"
+            android:layout_below="@+id/text1"
+            android:layout_marginRight="30dp"
+            android:layout_alignRight="@+id/small_view"
+            android:layout_alignEnd="@+id/small_view" />
+
+        <TextView
+            android:padding="@dimen/normal_padding"
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08 JAN 2015"
+            android:textSize="@dimen/font_size_date"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/text1"
+            android:layout_alignLeft="@+id/text1"
+            android:layout_alignStart="@+id/text1" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/normal_padding"
+            android:id="@+id/small_view"
+            android:padding="@dimen/normal_padding"
+            android:gravity="left"
+            android:layout_toRightOf="@+id/text1"
+            android:layout_toEndOf="@+id/text1"
+            android:layout_width="@dimen/width_seconds"
+            android:layout_alignTop="@+id/text1"
+            android:layout_alignBottom="@+id/text1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:padding="5dp"
+                android:id="@+id/tv_seconds"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="40"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:textSize="@dimen/font_size_seconds"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+
+        <LinearLayout
+            android:id="@+id/bottom_layout_alarm_ringing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="invisible"
+            >
+
+            <ImageView
+                android:id="@+id/iv_snooze_alarm"
+                android:src="@drawable/ic_snooze"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                />
+            <ImageView
+                android:id="@+id/iv_stop_alarm"
+                android:src="@drawable/ic_alarm_off"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/iv_add_alarm"
+                android:src="@drawable/ic_action_alarm_add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"/>
+
+            <ImageView
+                android:id="@+id/iv_torch"
+                android:src="@drawable/ic_torch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                />
+            <ImageView
+                android:id="@+id/iv_settings"
+                android:src="@drawable/ic_action_settings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

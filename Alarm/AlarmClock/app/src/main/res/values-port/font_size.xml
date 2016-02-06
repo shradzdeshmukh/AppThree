@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <dimen name="font_size_hr_min">60sp</dimen>
+    <dimen name="font_size_seconds">30sp</dimen>
+    <dimen name="font_size_date">15sp</dimen>
+    <dimen name="font_size_day">15sp</dimen>-->
+
+   <!--for list item add alarm-->
+    <dimen name="font_size_time">45sp</dimen>
+    <dimen name="font_size_cb_repeat">20sp</dimen>
+    <dimen name="font_size_ringtone">20sp</dimen>
+    <dimen name="font_size_vibrate">20sp</dimen>
+    <dimen name="font_size_repeat_days">16sp</dimen>
+
+</resources>

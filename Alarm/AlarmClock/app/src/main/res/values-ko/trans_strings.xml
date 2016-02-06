@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="repeat">반복</string>
+    <string name="vibrate">떨리다</string>
+    <string name="label">상표</string>
+    <string name="alarm_title">경보</string>
+    <string name="everyday">매일</string>
+    <string name="no_read_permission">미디어 없음 읽기 권한이 없습니다</string>
+    <string name="delete">지우다</string>
+    <string name="theme">시계 테마</string>
+    <string name="screen_lock">잠금에서 화면을 방지</string>
+    <string name="choose_color">색상을 선택</string>
+    <string name="theme_digits">숫자 테마</string>
+    <string name="snooze_title">선택 스누즈 간격</string>
+    <string name="no_alarms">아니 알람 없습니다</string>
+    <string name="am_pm">24 시간 형식은?</string>
+    <string name="settings">설정</string>
+    <string name="minutes">의사록</string>
+    <string name="noflash">플래시를 지원하지 않는 기기</string>
+    <string name="feedback">피드백</string>
+    <string name="no_email_client">장치에는 이메일 클라이언트 없음</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_hr_min">140sp</dimen>
+    <dimen name="font_size_seconds">45sp</dimen>
+    <dimen name="font_size_date">30sp</dimen>
+    <dimen name="font_size_day">30sp</dimen>
+    <dimen name="font_size_am_pm">35sp</dimen>
+
+    <dimen name="width_seconds">80dp</dimen>
+
+</resources>

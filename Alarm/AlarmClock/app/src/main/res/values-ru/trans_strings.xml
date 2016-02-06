@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="repeat">Повторение</string>
+    <string name="vibrate">вибрировать</string>
+    <string name="label">метка</string>
+    <string name="alarm_title">сигнализация</string>
+    <string name="everyday">каждый день</string>
+    <string name="no_read_permission">Нет Медиа разрешение на чтение</string>
+    <string name="delete">Удалить</string>
+    <string name="theme">Часы тема</string>
+    <string name="screen_lock">Предотвратить экран от блокировки</string>
+    <string name="choose_color">Выберите цвет</string>
+    <string name="theme_digits">Цифры тема</string>
+    <string name="snooze_title">Выберите интервал повтора</string>
+    <string name="no_alarms">Нет сигнализации</string>
+    <string name="am_pm">Является 24-часовом формате?</string>
+    <string name="settings">настройки</string>
+    <string name="minutes">минут</string>
+    <string name="noflash">Устройство не поддерживает вспышку</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="no_email_client">Нет клиент электронной почты на устройстве</string>
+
+</resources>
